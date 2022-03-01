@@ -26,7 +26,6 @@ public class EnablePVPCommand implements CommandExecutor {
             plugin.getSafeTimer().stopRunning();
             plugin.getTimer().setRunning(false);
         }else{
-            plugin.setPvpIsActive(true);
             player.sendMessage(ChatColor.GREEN + "PVP wurde aktiviert");
             plugin.getSafeTimer().startRunning();
         }
