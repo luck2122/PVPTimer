@@ -24,6 +24,7 @@ public class Timer {
     }
 
     public void startRunning(){
+        plugin.setPvpIsActive(true);
         setRunning(true);
         run();
     }
