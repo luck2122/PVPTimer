@@ -1,0 +1,9 @@
+name: PVPPlugin
+version: '${project.version}'
+main: de.luck212.pvpplugin.main.PVPPlugin
+api-version: 1.16
+commands:
+   pvp:
+        description: Starte die PVP Phase
+   schutzzeit:
+        description: Bestimme eine Schutzzeit
